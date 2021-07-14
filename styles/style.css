@@ -170,3 +170,38 @@ header {
     padding-left: 14px;
     color: gray;
 }
+@media only screen and (max-width:688px) {
+     ..container-1 {
+        margin-top: 40px;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+    
+    .palyer-blog {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);}
+        .news h1 {
+            background-color: #0052cc;
+            color: white;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .news-thambnail {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            align-items: center;
+            justify-content: center;
+        }
+        .watch-more {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            align-items: center;
+            margin-top: 50px;
+        }
+        .footer-logo img {
+            width: 283px;
+            height: 110px;
+        }
+
+}
