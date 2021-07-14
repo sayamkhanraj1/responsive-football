@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 /* common utilities */
 body{
     margin: 0;
@@ -33,7 +34,7 @@ header{
     margin-left: 140px;
     margin-top: 153px;
 }
-.head-left a {
+.button{
     text-decoration: none;
     color: #FFFFFF;
     width: 168px;
@@ -84,4 +85,62 @@ header{
   font-size: 16px;
   line-height: 26px;
   color: #6C6C6C;
+}
+/* news artical  style  */
+.news h1{
+     background-color: #0052cc;
+     color: white;
+     text-align: center;
+}
+.news-thambnail{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.thambnail img{
+    height: 150px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 30px;
+}
+.news-artical{
+    width: 200px;
+    margin-left: 20px;
+}
+.news-artical a{
+      text-decoration: none;
+}
+/* club partners */
+.Watch-titel h1{
+    color: white;
+   background-color: #E02C6D;
+   text-align:center;
+   text-transform: uppercase;
+}
+.watch-more{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+/* footer style  */
+.footer-items{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 150px;
+}
+
+.footer-logo img{
+ width: 483px;
+ height: 110px;
+}
+.social-icon i{
+    width: 32px;
+    height: 32px;
+     padding-left: 14px;
+     color: gray;
 }
