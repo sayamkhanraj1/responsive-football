@@ -1,0 +1,87 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common utilities */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* header style */
+header{
+    background-color: #2D25A0;
+    width: 100%;
+    Height:677px;
+}
+.head{
+    display: flex;
+}
+.head-left{
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px;
+    margin-top: 207px;
+    margin-left: 156px ;
+}
+.head-left h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+}
+.head-right img {
+    Width: 556px;
+    Height: 438px;
+    margin-left: 140px;
+    margin-top: 153px;
+}
+.head-left a {
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 464px;
+    padding: 10px 24px;
+    background: #E02C6D;
+    
+}
+/* palyers style */
+.container-1{
+    margin-top: 85px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.palyer-blog{
+    display: grid;
+    grid-row-gap: 45px;
+    grid-column-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player-card{
+   width: 330px;
+   height: 456px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.palyer-images img{
+   width: 300px;
+   height: 256px;
+   margin: 16px 0px 15px 15px;
+   align-items: center;
+}
+.player-info{
+   width: 300px;
+   height: 154px;
+   margin: 15px;
+}
+.player-info h2{
+   font-style: normal;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 0px;
+   color: #18191F;
+}
+.player-info p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #6C6C6C;
+}
