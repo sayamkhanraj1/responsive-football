@@ -191,7 +191,8 @@ header {
     .head-left{
         margin-left: 50px;
         margin-top: 20px;
-        width: 300px;
+        width: 278px;
+        height: 13;
     }
     .head-left h1 {
         font-style: normal;
@@ -201,9 +202,15 @@ header {
         
     }
     .head-right img {
-        Width: 356px;
-        Height: 238px;
+        Width: 329px;
+        Height: 259px;
         margin-left: 20px;
+    }
+    .player-card {
+        width: 330px;
+        height: 447px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     }
         
     .palyer-images img {
