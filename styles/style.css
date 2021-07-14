@@ -1,40 +1,47 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
 /* common utilities */
-body{
+body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 /* header style */
-header{
+header {
     background-color: #2D25A0;
     width: 100%;
-    Height:677px;
+    Height: 677px;
 }
-.head{
+
+.head {
     display: flex;
 }
-.head-left{
+
+.head-left {
     color: #FFFFFF;
     width: 485px;
     height: 230px;
     margin-top: 207px;
-    margin-left: 156px ;
+    margin-left: 156px;
 }
-.head-left h1{
+
+.head-left h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 80px;
 }
+
 .head-right img {
     Width: 556px;
     Height: 438px;
     margin-left: 140px;
     margin-top: 153px;
 }
-.button{
+
+.button {
     text-decoration: none;
     color: #FFFFFF;
     width: 168px;
@@ -43,104 +50,119 @@ header{
     top: 464px;
     padding: 10px 24px;
     background: #E02C6D;
-    
+
 }
+
 /* palyers style */
-.container-1{
+.container-1 {
     margin-top: 85px;
     margin-left: 180px;
     margin-right: 180px;
 }
-.palyer-blog{
+
+.palyer-blog {
     display: grid;
     grid-row-gap: 45px;
     grid-column-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
 }
-.player-card{
-   width: 330px;
-   height: 456px;
-   background: #FFFFFF;
-   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+.player-card {
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
-.palyer-images img{
-   width: 300px;
-   height: 256px;
-   margin: 16px 0px 15px 15px;
-   align-items: center;
+
+.palyer-images img {
+    width: 300px;
+    height: 256px;
+    margin: 16px 0px 15px 15px;
+    align-items: center;
 }
-.player-info{
-   width: 300px;
-   height: 154px;
-   margin: 15px;
+
+.player-info {
+    width: 300px;
+    height: 154px;
+    margin: 15px;
 }
-.player-info h2{
-   font-style: normal;
-   font-weight: 700;
-   font-size: 28px;
-   line-height: 0px;
-   color: #18191F;
+
+.player-info h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 0px;
+    color: #18191F;
 }
+
 .player-info p {
-  font-size: 16px;
-  line-height: 26px;
-  color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
 }
+
 /* news artical  style  */
-.news h1{
-     background-color: #0052cc;
-     color: white;
-     text-align: center;
+.news h1 {
+    background-color: #0052cc;
+    color: white;
+    text-align: center;
 }
-.news-thambnail{
-    display:flex;
+
+.news-thambnail {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-.thambnail img{
+
+.thambnail img {
     height: 150px;
     padding: 10px;
     width: 200px;
     border-radius: 30px;
 }
-.news-artical{
+
+.news-artical {
     width: 200px;
     margin-left: 20px;
 }
-.news-artical a{
-      text-decoration: none;
+
+.news-artical a {
+    text-decoration: none;
 }
+
 /* club partners */
-.Watch-titel h1{
+.Watch-titel h1 {
     color: white;
-   background-color: #E02C6D;
-   text-align:center;
-   text-transform: uppercase;
+    background-color: #E02C6D;
+    text-align: center;
+    text-transform: uppercase;
 }
-.watch-more{
+
+.watch-more {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     margin-top: 50px;
 }
 
 
 /* footer style  */
-.footer-items{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- margin-top: 150px;
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
 }
 
-.footer-logo img{
- width: 483px;
- height: 110px;
+.footer-logo img {
+    width: 483px;
+    height: 110px;
 }
-.social-icon i{
+
+.social-icon i {
     width: 32px;
     height: 32px;
-     padding-left: 14px;
-     color: gray;
+    padding-left: 14px;
+    color: gray;
 }
